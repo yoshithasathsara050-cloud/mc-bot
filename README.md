@@ -1,2 +1,2 @@
-# mc-bot
+# _jinwu
 Minecraft AFK Bot (optional)
