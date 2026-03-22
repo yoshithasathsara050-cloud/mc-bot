@@ -6,8 +6,8 @@ http.createServer((req, res) => res.end('alive')).listen(3000)
 
 function createBot() {
   const bot = mineflayer.createBot({
-    host: 'mc.amethystcommunity.net',
-    port: 25565,
+    host: 'newy.aternos.me',
+    port: 29303,
     username: '_jinwu',
     version: '1.20.1'
   })
