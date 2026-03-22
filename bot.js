@@ -6,10 +6,10 @@ http.createServer((req, res) => res.end('alive')).listen(3000)
 
 function createBot() {
   const bot = mineflayer.createBot({
-    host: 'arts-unashamed.gl.joinmc.link',  // ← Server IP මෙතන දාන්න
+    host: 'mc.amethystcommunity.net',  // ← Server IP මෙතන දාන්න
     port: 25565,
     username: '_jinwu',
-    version: '1.21.8'
+    version: '1.20.1'
   })
 
   bot.on('spawn', () => {
