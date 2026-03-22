@@ -32,3 +32,16 @@ function createBot() {
 }
 
 createBot()
+
+bot.on('spawn', () => {
+  console.log('✅ Bot spawned!')
+  
+  // 2 seconds wait කරලා register/login
+  setTimeout(() => {
+    bot.chat('/register BotPassword123 BotPassword123')
+  }, 2000)
+  
+  setTimeout(() => {
+    bot.chat('/login BotPassword123')
+  }, 4000)
+})
